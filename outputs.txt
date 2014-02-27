@@ -1,0 +1,464 @@
+
+/user/cloud/rxm124330/Crime/testfinall - normal full - job_201402160159_0012
+
+14/02/16 22:49:45 INFO mapred.JobClient: Job complete: job_201402160159_0012
+14/02/16 22:49:45 INFO mapred.JobClient: Counters: 29
+14/02/16 22:49:45 INFO mapred.JobClient:   Job Counters
+14/02/16 22:49:45 INFO mapred.JobClient:     Launched reduce tasks=13
+14/02/16 22:49:45 INFO mapred.JobClient:     SLOTS_MILLIS_MAPS=777459
+14/02/16 22:49:45 INFO mapred.JobClient:     Total time spent by all reduces waiting after reserving slots (ms)=0
+14/02/16 22:49:45 INFO mapred.JobClient:     Total time spent by all maps waiting after reserving slots (ms)=0
+14/02/16 22:49:45 INFO mapred.JobClient:     Launched map tasks=1344
+14/02/16 22:49:45 INFO mapred.JobClient:     Data-local map tasks=1344
+14/02/16 22:49:45 INFO mapred.JobClient:     SLOTS_MILLIS_REDUCES=1001496
+14/02/16 22:49:45 INFO mapred.JobClient:   File Output Format Counters
+14/02/16 22:49:45 INFO mapred.JobClient:     Bytes Written=18827875
+14/02/16 22:49:45 INFO mapred.JobClient:   FileSystemCounters
+14/02/16 22:49:45 INFO mapred.JobClient:     FILE_BYTES_READ=39195884
+14/02/16 22:49:45 INFO mapred.JobClient:     HDFS_BYTES_READ=2184105737
+14/02/16 22:49:45 INFO mapred.JobClient:     FILE_BYTES_WRITTEN=234367561
+14/02/16 22:49:45 INFO mapred.JobClient:     HDFS_BYTES_WRITTEN=18827875
+14/02/16 22:49:45 INFO mapred.JobClient:   File Input Format Counters
+14/02/16 22:49:45 INFO mapred.JobClient:     Bytes Read=2183910056
+14/02/16 22:49:45 INFO mapred.JobClient:   Map-Reduce Framework
+14/02/16 22:49:45 INFO mapred.JobClient:     Map output materialized bytes=162501352
+14/02/16 22:49:45 INFO mapred.JobClient:     Map input records=15669890
+14/02/16 22:49:45 INFO mapred.JobClient:     Reduce shuffle bytes=162501352
+14/02/16 22:49:45 INFO mapred.JobClient:     Spilled Records=4132649
+14/02/16 22:49:45 INFO mapred.JobClient:     Map output bytes=759656667
+14/02/16 22:49:45 INFO mapred.JobClient:     Total committed heap usage (bytes)=264153595904
+14/02/16 22:49:45 INFO mapred.JobClient:     CPU time spent (ms)=519510
+14/02/16 22:49:45 INFO mapred.JobClient:     Combine input records=18582703
+14/02/16 22:49:45 INFO mapred.JobClient:     SPLIT_RAW_BYTES=195681
+14/02/16 22:49:45 INFO mapred.JobClient:     Reduce input records=800902
+14/02/16 22:49:45 INFO mapred.JobClient:     Reduce input groups=417196
+14/02/16 22:49:45 INFO mapred.JobClient:     Combine output records=3713715
+14/02/16 22:49:45 INFO mapred.JobClient:     Physical memory (bytes) snapshot=315211522048
+14/02/16 22:49:45 INFO mapred.JobClient:     Reduce output records=417196
+14/02/16 22:49:45 INFO mapred.JobClient:     Virtual memory (bytes) snapshot=813531635712
+14/02/16 22:49:45 INFO mapred.JobClient:     Map output records=15669890
+rxm124330@master:/home/cloud/hadoop-1.1.0/bin$ hadoop fs -ls  /user/cloud/rxm124330/Crime/testfinall
+Found 12 items
+Job job_201402160159_0012 has completed successfully.
+2014-02-16 22:49:44,971 INFO org.apache.hadoop.mapred.JobInProgress$JobSummary: jobId=job_201402160159_0012,submitTime=1392612390446,
+launchTime=1392612390708,firstMapTaskLaunchTime=1392612392044,firstReduceTaskLaunchTime=1392612403537,firstJobSetupTaskLaunchTime=1392612390833,
+firstJobCleanupTaskLaunchTime=1392612583762,finishTime=1392612584971,numMaps=1341,numSlotsPerMap=1,numReduces=10,numSlotsPerReduce=1,user=rxm124330,
+queue=default,status=SUCCEEDED,mapSlotSeconds=777,reduceSlotsSeconds=1000,clusterMapCapacity=6,clusterReduceCapacity=6,jobName=word count
+
+
+2014-02-15 04:16:33,587 INFO org.apache.hadoop.util.NativeCodeLoader: Loaded the native-hadoop library
+2014-02-15 04:16:33,819 WARN org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Source name ugi already exists!
+2014-02-15 04:16:33,883 INFO org.apache.hadoop.util.ProcessTree: setsid exited with exit code 0
+2014-02-15 04:16:33,885 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@2378274f
+2014-02-15 04:16:33,953 WARN org.apache.hadoop.io.compress.snappy.LoadSnappy: Snappy native library not loaded
+2014-02-15 04:16:33,959 INFO org.apache.hadoop.mapred.MapTask: numReduceTasks: 10
+2014-02-15 04:16:33,964 INFO org.apache.hadoop.mapred.MapTask: io.sort.mb = 100
+2014-02-15 04:16:33,991 INFO org.apache.hadoop.mapred.MapTask: data buffer = 79691776/99614720
+2014-02-15 04:16:33,991 INFO org.apache.hadoop.mapred.MapTask: record buffer = 262144/327680
+2014-02-15 04:16:38,642 INFO org.apache.hadoop.mapred.MapTask: Spilling map output: record full = true
+2014-02-15 04:16:38,643 INFO org.apache.hadoop.mapred.MapTask: bufstart = 0; bufend = 8341664; bufvoid = 99614720
+2014-02-15 04:16:38,643 INFO org.apache.hadoop.mapred.MapTask: kvstart = 0; kvend = 262144; length = 327680
+2014-02-15 04:16:38,972 INFO org.apache.hadoop.mapred.MapTask: Finished spill 0
+2014-02-15 04:16:43,717 INFO org.apache.hadoop.mapred.MapTask: Spilling map output: record full = true
+2014-02-15 04:16:43,717 INFO org.apache.hadoop.mapred.MapTask: bufstart = 8341664; bufend = 17185293; bufvoid = 99614720
+2014-02-15 04:16:43,717 INFO org.apache.hadoop.mapred.MapTask: kvstart = 262144; kvend = 196607; length = 327680
+2014-02-15 04:16:43,868 INFO org.apache.hadoop.mapred.MapTask: Finished spill 1
+2014-02-15 04:16:48,903 INFO org.apache.hadoop.mapred.MapTask: Spilling map output: record full = true
+2014-02-15 04:16:48,904 INFO org.apache.hadoop.mapred.MapTask: bufstart = 17185293; bufend = 25953482; bufvoid = 99614720
+2014-02-15 04:16:48,904 INFO org.apache.hadoop.mapred.MapTask: kvstart = 196607; kvend = 131070; length = 327680
+2014-02-15 04:16:48,978 INFO org.apache.hadoop.mapred.MapTask: Finished spill 2
+2014-02-15 04:16:54,445 INFO org.apache.hadoop.mapred.MapTask: Spilling map output: record full = true
+2014-02-15 04:16:54,445 INFO org.apache.hadoop.mapred.MapTask: bufstart = 25953482; bufend = 34853984; bufvoid = 99614720
+2014-02-15 04:16:54,445 INFO org.apache.hadoop.mapred.MapTask: kvstart = 131070; kvend = 65533; length = 327680
+2014-02-15 04:16:54,524 INFO org.apache.hadoop.mapred.MapTask: Finished spill 3
+2014-02-15 04:16:56,492 INFO org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2014-02-15 04:16:56,516 INFO org.apache.hadoop.mapred.MapTask: Finished spill 4
+2014-02-15 04:16:56,520 INFO org.apache.hadoop.mapred.Merger: Merging 5 sorted segments
+2014-02-15 04:16:56,523 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 5 segments left of total size: 4822 bytes
+2014-02-15 04:16:56,525 INFO org.apache.hadoop.mapred.Merger: Merging 5 sorted segments
+2014-02-15 04:16:56,526 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 5 segments left of total size: 3593 bytes
+2014-02-15 04:16:56,527 INFO org.apache.hadoop.mapred.Merger: Merging 5 sorted segments
+2014-02-15 04:16:56,528 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 5 segments left of total size: 3730 bytes
+"syslog" 52L, 5703C  
+
+
+
+
+
+
+
+
+
+/user/cloud/rxm124330/Crime/singlle - normal single -job_201402160159_0015
+14/02/16 22:52:49 INFO mapred.JobClient: Job complete: job_201402160159_0015
+14/02/16 22:52:49 INFO mapred.JobClient: Counters: 29
+14/02/16 22:52:49 INFO mapred.JobClient:   Job Counters
+14/02/16 22:52:49 INFO mapred.JobClient:     Launched reduce tasks=10
+14/02/16 22:52:49 INFO mapred.JobClient:     SLOTS_MILLIS_MAPS=78822
+14/02/16 22:52:49 INFO mapred.JobClient:     Total time spent by all reduces waiting after reserving slots (ms)=0
+14/02/16 22:52:49 INFO mapred.JobClient:     Total time spent by all maps waiting after reserving slots (ms)=0
+14/02/16 22:52:49 INFO mapred.JobClient:     Launched map tasks=17
+14/02/16 22:52:49 INFO mapred.JobClient:     Data-local map tasks=17
+14/02/16 22:52:49 INFO mapred.JobClient:     SLOTS_MILLIS_REDUCES=114566
+14/02/16 22:52:49 INFO mapred.JobClient:   File Output Format Counters
+14/02/16 22:52:49 INFO mapred.JobClient:     Bytes Written=18827823
+14/02/16 22:52:49 INFO mapred.JobClient:   FileSystemCounters
+14/02/16 22:52:49 INFO mapred.JobClient:     FILE_BYTES_READ=272424557
+14/02/16 22:52:49 INFO mapred.JobClient:     HDFS_BYTES_READ=2183862346
+14/02/16 22:52:49 INFO mapred.JobClient:     FILE_BYTES_WRITTEN=384399852
+14/02/16 22:52:49 INFO mapred.JobClient:     HDFS_BYTES_WRITTEN=18827823
+14/02/16 22:52:49 INFO mapred.JobClient:   File Input Format Counters
+14/02/16 22:52:49 INFO mapred.JobClient:     Bytes Read=2183860153
+14/02/16 22:52:49 INFO mapred.JobClient:   Map-Reduce Framework
+14/02/16 22:52:49 INFO mapred.JobClient:     Map output materialized bytes=112629502
+14/02/16 22:52:49 INFO mapred.JobClient:     Map input records=15668547
+14/02/16 22:52:49 INFO mapred.JobClient:     Reduce shuffle bytes=112629502
+14/02/16 22:52:49 INFO mapred.JobClient:     Spilled Records=7887751
+14/02/16 22:52:49 INFO mapred.JobClient:     Map output bytes=759588170
+14/02/16 22:52:49 INFO mapred.JobClient:     Total committed heap usage (bytes)=5569511424
+14/02/16 22:52:49 INFO mapred.JobClient:     CPU time spent (ms)=123710
+14/02/16 22:52:49 INFO mapred.JobClient:     Combine input records=18922840
+14/02/16 22:52:49 INFO mapred.JobClient:     SPLIT_RAW_BYTES=2193
+14/02/16 22:52:49 INFO mapred.JobClient:     Reduce input records=2316729
+14/02/16 22:52:49 INFO mapred.JobClient:     Reduce input groups=417195
+14/02/16 22:52:49 INFO mapred.JobClient:     Combine output records=5571022
+14/02/16 22:52:49 INFO mapred.JobClient:     Physical memory (bytes) snapshot=5398331392
+14/02/16 22:52:49 INFO mapred.JobClient:     Reduce output records=417195
+14/02/16 22:52:49 INFO mapred.JobClient:     Virtual memory (bytes) snapshot=16529448960
+14/02/16 22:52:49 INFO mapred.JobClient:     Map output records=15668547
+Job job_201402160159_0015 has completed successfully.
+2014-02-16 22:52:49,784 INFO org.apache.hadoop.mapred.JobInProgress$JobSummary: jobId=job_201402160159_0015,submitTime=1392612739735,
+launchTime=1392612739873,firstMapTaskLaunchTime=1392612741132,firstReduceTaskLaunchTime=1392612747465,firstJobSetupTaskLaunchTime=1392612739923,
+firstJobCleanupTaskLaunchTime=1392612769481,finishTime=1392612769784,numMaps=17,numSlotsPerMap=1,numReduces=10,numSlotsPerReduce=1,user=rxm124330,
+queue=default,status=SUCCEEDED,mapSlotSeconds=78,reduceSlotsSeconds=114,clusterMapCapacity=6,clusterReduceCapacity=6,jobName=word count
+
+
+/user/cloud/rxm124330/Crime/singlered2/ - reducers 2  single -job_201402160159_0017
+14/02/16 23:20:17 INFO mapred.JobClient: Job complete: job_201402160159_0017
+14/02/16 23:20:17 INFO mapred.JobClient: Counters: 29
+14/02/16 23:20:17 INFO mapred.JobClient:   Job Counters
+14/02/16 23:20:17 INFO mapred.JobClient:     Launched reduce tasks=2
+14/02/16 23:20:17 INFO mapred.JobClient:     SLOTS_MILLIS_MAPS=76570
+14/02/16 23:20:17 INFO mapred.JobClient:     Total time spent by all reduces waiting after reserving slots (ms)=0
+14/02/16 23:20:17 INFO mapred.JobClient:     Total time spent by all maps waiting after reserving slots (ms)=0
+14/02/16 23:20:17 INFO mapred.JobClient:     Launched map tasks=17
+14/02/16 23:20:17 INFO mapred.JobClient:     Data-local map tasks=17
+14/02/16 23:20:17 INFO mapred.JobClient:     SLOTS_MILLIS_REDUCES=29418
+14/02/16 23:20:17 INFO mapred.JobClient:   File Output Format Counters
+14/02/16 23:20:17 INFO mapred.JobClient:     Bytes Written=18827823
+14/02/16 23:20:17 INFO mapred.JobClient:   FileSystemCounters
+14/02/16 23:20:17 INFO mapred.JobClient:     FILE_BYTES_READ=271267888
+14/02/16 23:20:17 INFO mapred.JobClient:     HDFS_BYTES_READ=2183862346
+14/02/16 23:20:17 INFO mapred.JobClient:     FILE_BYTES_WRITTEN=384200982
+14/02/16 23:20:17 INFO mapred.JobClient:     HDFS_BYTES_WRITTEN=18827823
+14/02/16 23:20:17 INFO mapred.JobClient:   File Input Format Counters
+14/02/16 23:20:17 INFO mapred.JobClient:     Bytes Read=2183860153
+14/02/16 23:20:17 INFO mapred.JobClient:   Map-Reduce Framework
+14/02/16 23:20:17 INFO mapred.JobClient:     Map output materialized bytes=112628686
+14/02/16 23:20:17 INFO mapred.JobClient:     Map input records=15668547
+14/02/16 23:20:17 INFO mapred.JobClient:     Reduce shuffle bytes=112628686
+14/02/16 23:20:17 INFO mapred.JobClient:     Spilled Records=7887751
+14/02/16 23:20:17 INFO mapred.JobClient:     Map output bytes=759588170
+14/02/16 23:20:17 INFO mapred.JobClient:     Total committed heap usage (bytes)=3958898688
+14/02/16 23:20:17 INFO mapred.JobClient:     CPU time spent (ms)=108110
+14/02/16 23:20:17 INFO mapred.JobClient:     Combine input records=18922840
+14/02/16 23:20:17 INFO mapred.JobClient:     SPLIT_RAW_BYTES=2193
+14/02/16 23:20:17 INFO mapred.JobClient:     Reduce input records=2316729
+14/02/16 23:20:17 INFO mapred.JobClient:     Reduce input groups=417195
+14/02/16 23:20:17 INFO mapred.JobClient:     Combine output records=5571022
+14/02/16 23:20:17 INFO mapred.JobClient:     Physical memory (bytes) snapshot=4331442176
+14/02/16 23:20:17 INFO mapred.JobClient:     Reduce output records=417195
+14/02/16 23:20:17 INFO mapred.JobClient:     Virtual memory (bytes) snapshot=11229290496
+14/02/16 23:20:17 INFO mapred.JobClient:     Map output records=15668547
+Job job_201402160159_0017 has completed successfully.
+2014-02-16 23:20:17,568 INFO org.apache.hadoop.mapred.JobInProgress$JobSummary: jobId=job_201402160159_0017,submitTime=1392614393752,
+launchTime=1392614393890,firstMapTaskLaunchTime=1392614395139,firstReduceTaskLaunchTime=1392614401169,firstJobSetupTaskLaunchTime=1392614393930,
+firstJobCleanupTaskLaunchTime=1392614416059,finishTime=1392614417568,numMaps=17,numSlotsPerMap=1,numReduces=2,numSlotsPerReduce=1,user=rxm124330,
+queue=default,status=SUCCEEDED,mapSlotSeconds=76,reduceSlotsSeconds=29,clusterMapCapacity=6,clusterReduceCapacity=6,jobName=crimer
+
+
+
+
+/user/cloud/rxm124330/Crime/fullred2/ - reducers 2  full -job_201402160159_0018
+14/02/16 23:25:14 INFO mapred.JobClient: Job complete: job_201402160159_0018
+14/02/16 23:25:14 INFO mapred.JobClient: Counters: 29
+14/02/16 23:25:14 INFO mapred.JobClient:   Job Counters
+14/02/16 23:25:14 INFO mapred.JobClient:     Launched reduce tasks=2
+14/02/16 23:25:14 INFO mapred.JobClient:     SLOTS_MILLIS_MAPS=770194
+14/02/16 23:25:14 INFO mapred.JobClient:     Total time spent by all reduces waiting after reserving slots (ms)=0
+14/02/16 23:25:14 INFO mapred.JobClient:     Total time spent by all maps waiting after reserving slots (ms)=0
+14/02/16 23:25:14 INFO mapred.JobClient:     Launched map tasks=1343
+14/02/16 23:25:14 INFO mapred.JobClient:     Data-local map tasks=1343
+14/02/16 23:25:14 INFO mapred.JobClient:     SLOTS_MILLIS_REDUCES=312058
+14/02/16 23:25:14 INFO mapred.JobClient:   File Output Format Counters
+14/02/16 23:25:14 INFO mapred.JobClient:     Bytes Written=18827875
+14/02/16 23:25:14 INFO mapred.JobClient:   FileSystemCounters
+14/02/16 23:25:14 INFO mapred.JobClient:     FILE_BYTES_READ=39202391
+14/02/16 23:25:14 INFO mapred.JobClient:     HDFS_BYTES_READ=2184105737
+14/02/16 23:25:14 INFO mapred.JobClient:     FILE_BYTES_WRITTEN=233851347
+14/02/16 23:25:14 INFO mapred.JobClient:     HDFS_BYTES_WRITTEN=18827875
+14/02/16 23:25:14 INFO mapred.JobClient:   File Input Format Counters
+14/02/16 23:25:14 INFO mapred.JobClient:     Bytes Read=2183910056
+14/02/16 23:25:14 INFO mapred.JobClient:   Map-Reduce Framework
+14/02/16 23:25:14 INFO mapred.JobClient:     Map output materialized bytes=162436984
+14/02/16 23:25:14 INFO mapred.JobClient:     Map input records=15669890
+14/02/16 23:25:14 INFO mapred.JobClient:     Reduce shuffle bytes=162436984
+14/02/16 23:25:14 INFO mapred.JobClient:     Spilled Records=4132790
+14/02/16 23:25:14 INFO mapred.JobClient:     Map output bytes=759656667
+14/02/16 23:25:14 INFO mapred.JobClient:     Total committed heap usage (bytes)=262451757056
+14/02/16 23:25:14 INFO mapred.JobClient:     CPU time spent (ms)=426960
+14/02/16 23:25:14 INFO mapred.JobClient:     Combine input records=18582430
+14/02/16 23:25:14 INFO mapred.JobClient:     SPLIT_RAW_BYTES=195681
+14/02/16 23:25:14 INFO mapred.JobClient:     Reduce input records=801043
+14/02/16 23:25:14 INFO mapred.JobClient:     Reduce input groups=417196
+14/02/16 23:25:14 INFO mapred.JobClient:     Combine output records=3713583
+14/02/16 23:25:14 INFO mapred.JobClient:     Physical memory (bytes) snapshot=314316058624
+14/02/16 23:25:14 INFO mapred.JobClient:     Reduce output records=417196
+14/02/16 23:25:14 INFO mapred.JobClient:     Virtual memory (bytes) snapshot=803592953856
+14/02/16 23:25:14 INFO mapred.JobClient:     Map output records=15669890
+Job job_201402160159_0018 has completed successfully.
+2014-02-16 23:25:13,874 INFO org.apache.hadoop.mapred.JobInProgress$JobSummary: jobId=job_201402160159_0018,submitTime=1392614543459,
+launchTime=1392614543668,firstMapTaskLaunchTime=1392614544957,firstReduceTaskLaunchTime=1392614556616,firstJobSetupTaskLaunchTime=1392614543748,
+firstJobCleanupTaskLaunchTime=1392614712967,finishTime=1392614713874,numMaps=1341,numSlotsPerMap=1,numReduces=2,numSlotsPerReduce=1,user=rxm124330,
+queue=default,status=SUCCEEDED,mapSlotSeconds=770,reduceSlotsSeconds=312,clusterMapCapacity=6,clusterReduceCapacity=6,jobName=crimer
+
+
+
+/user/cloud/rxm124330/Crime/singleblock64/ - reducers 10 blocksize 64MB SINGLE - job_201402160159_0019
+Job complete: job_201402160159_0019
+14/02/17 00:19:26 INFO mapred.JobClient: Counters: 29
+14/02/17 00:19:26 INFO mapred.JobClient:   Job Counters
+14/02/17 00:19:26 INFO mapred.JobClient:     Launched reduce tasks=10
+14/02/17 00:19:26 INFO mapred.JobClient:     SLOTS_MILLIS_MAPS=88564
+14/02/17 00:19:26 INFO mapred.JobClient:     Total time spent by all reduces waiting after reserving slots (ms)=0
+14/02/17 00:19:26 INFO mapred.JobClient:     Total time spent by all maps waiting after reserving slots (ms)=0
+14/02/17 00:19:26 INFO mapred.JobClient:     Launched map tasks=33
+14/02/17 00:19:26 INFO mapred.JobClient:     Data-local map tasks=33
+14/02/17 00:19:26 INFO mapred.JobClient:     SLOTS_MILLIS_REDUCES=146389
+14/02/17 00:19:26 INFO mapred.JobClient:   File Output Format Counters
+14/02/17 00:19:26 INFO mapred.JobClient:     Bytes Written=18827823
+14/02/17 00:19:26 INFO mapred.JobClient:   FileSystemCounters
+14/02/17 00:19:26 INFO mapred.JobClient:     FILE_BYTES_READ=319255082
+14/02/17 00:19:26 INFO mapred.JobClient:     HDFS_BYTES_READ=2183929946
+14/02/17 00:19:26 INFO mapred.JobClient:     FILE_BYTES_WRITTEN=478216292
+14/02/17 00:19:26 INFO mapred.JobClient:     HDFS_BYTES_WRITTEN=18827823
+14/02/17 00:19:26 INFO mapred.JobClient:   File Input Format Counters
+14/02/17 00:19:26 INFO mapred.JobClient:     Bytes Read=2183925689
+14/02/17 00:19:26 INFO mapred.JobClient:   Map-Reduce Framework
+14/02/17 00:19:26 INFO mapred.JobClient:     Map output materialized bytes=159252082
+14/02/17 00:19:26 INFO mapred.JobClient:     Map input records=15668547
+14/02/17 00:19:26 INFO mapred.JobClient:     Reduce shuffle bytes=159252082
+14/02/17 00:19:26 INFO mapred.JobClient:     Spilled Records=9793194
+14/02/17 00:19:26 INFO mapred.JobClient:     Map output bytes=759588170
+14/02/17 00:19:26 INFO mapred.JobClient:     Total committed heap usage (bytes)=8910274560
+14/02/17 00:19:26 INFO mapred.JobClient:     CPU time spent (ms)=129830
+14/02/17 00:19:26 INFO mapred.JobClient:     Combine input records=16773919
+14/02/17 00:19:26 INFO mapred.JobClient:     SPLIT_RAW_BYTES=4257
+14/02/17 00:19:26 INFO mapred.JobClient:     Reduce input records=3267463
+14/02/17 00:19:26 INFO mapred.JobClient:     Reduce input groups=417195
+14/02/17 00:19:26 INFO mapred.JobClient:     Combine output records=4372835
+14/02/17 00:19:26 INFO mapred.JobClient:     Physical memory (bytes) snapshot=9299275776
+14/02/17 00:19:26 INFO mapred.JobClient:     Reduce output records=417195
+14/02/17 00:19:26 INFO mapred.JobClient:     Virtual memory (bytes) snapshot=25477685248
+14/02/17 00:19:26 INFO mapred.JobClient:     Map output records=15668547
+Job job_201402160159_0019 has completed successfully.
+2014-02-17 00:19:25,940 INFO org.apache.hadoop.mapred.JobInProgress$JobSummary: jobId=job_201402160159_0019,submitTime=1392617932251,
+launchTime=1392617932388,firstMapTaskLaunchTime=1392617933667,firstReduceTaskLaunchTime=1392617938193,firstJobSetupTaskLaunchTime=1392617932459,
+firstJobCleanupTaskLaunchTime=1392617965637,finishTime=1392617965940,numMaps=33,numSlotsPerMap=1,numReduces=10,numSlotsPerReduce=1,user=rxm124330,
+queue=default,status=SUCCEEDED,mapSlotSeconds=88,reduceSlotsSeconds=146,clusterMapCapacity=6,clusterReduceCapacity=6,jobName=crimer
+
+
+
+/user/cloud/rxm124330/Crime/fullblock64/ - reducers 10 blocksize 64MB FULL - job_201402160159_0020
+Job complete: job_201402160159_0020
+14/02/17 00:25:31 INFO mapred.JobClient: Counters: 29
+14/02/17 00:25:31 INFO mapred.JobClient:   Job Counters
+14/02/17 00:25:31 INFO mapred.JobClient:     Launched reduce tasks=13
+14/02/17 00:25:31 INFO mapred.JobClient:     SLOTS_MILLIS_MAPS=778370
+14/02/17 00:25:31 INFO mapred.JobClient:     Total time spent by all reduces waiting after reserving slots (ms)=0
+14/02/17 00:25:31 INFO mapred.JobClient:     Total time spent by all maps waiting after reserving slots (ms)=0
+14/02/17 00:25:31 INFO mapred.JobClient:     Launched map tasks=1344
+14/02/17 00:25:31 INFO mapred.JobClient:     Data-local map tasks=1344
+14/02/17 00:25:31 INFO mapred.JobClient:     SLOTS_MILLIS_REDUCES=999873
+14/02/17 00:25:31 INFO mapred.JobClient:   File Output Format Counters
+14/02/17 00:25:31 INFO mapred.JobClient:     Bytes Written=18827875
+14/02/17 00:25:31 INFO mapred.JobClient:   FileSystemCounters
+14/02/17 00:25:31 INFO mapred.JobClient:     FILE_BYTES_READ=39261065
+14/02/17 00:25:31 INFO mapred.JobClient:     HDFS_BYTES_READ=2184105737
+14/02/17 00:25:31 INFO mapred.JobClient:     FILE_BYTES_WRITTEN=234535418
+14/02/17 00:25:31 INFO mapred.JobClient:     HDFS_BYTES_WRITTEN=18827875
+14/02/17 00:25:31 INFO mapred.JobClient:   File Input Format Counters
+14/02/17 00:25:31 INFO mapred.JobClient:     Bytes Read=2183910056
+14/02/17 00:25:31 INFO mapred.JobClient:   Map-Reduce Framework
+14/02/17 00:25:31 INFO mapred.JobClient:     Map output materialized bytes=162501352
+14/02/17 00:25:31 INFO mapred.JobClient:     Map input records=15669890
+14/02/17 00:25:31 INFO mapred.JobClient:     Reduce shuffle bytes=162501352
+14/02/17 00:25:31 INFO mapred.JobClient:     Spilled Records=4133994
+14/02/17 00:25:31 INFO mapred.JobClient:     Map output bytes=759656667
+14/02/17 00:25:31 INFO mapred.JobClient:     Total committed heap usage (bytes)=264099069952
+14/02/17 00:25:31 INFO mapred.JobClient:     CPU time spent (ms)=518990
+14/02/17 00:25:31 INFO mapred.JobClient:     Combine input records=18581587
+14/02/17 00:25:31 INFO mapred.JobClient:     SPLIT_RAW_BYTES=195681
+14/02/17 00:25:31 INFO mapred.JobClient:     Reduce input records=802247
+14/02/17 00:25:31 INFO mapred.JobClient:     Reduce input groups=417196
+14/02/17 00:25:31 INFO mapred.JobClient:     Combine output records=3713944
+14/02/17 00:25:31 INFO mapred.JobClient:     Physical memory (bytes) snapshot=315722850304
+14/02/17 00:25:31 INFO mapred.JobClient:     Reduce output records=417196
+14/02/17 00:25:31 INFO mapred.JobClient:     Virtual memory (bytes) snapshot=809598414848
+14/02/17 00:25:31 INFO mapred.JobClient:     Map output records=15669890
+Job job_201402160159_0020 has completed successfully.
+2014-02-17 00:25:31,522 INFO org.apache.hadoop.mapred.JobInProgress$JobSummary: jobId=job_201402160159_0020,submitTime=1392618144322,
+launchTime=1392618144542,firstMapTaskLaunchTime=1392618145767,firstReduceTaskLaunchTime=1392618156670,
+firstJobSetupTaskLaunchTime=1392618144558,firstJobCleanupTaskLaunchTime=1392618330009,finishTime=1392618331522,numMaps=1341,
+numSlotsPerMap=1,numReduces=10,numSlotsPerReduce=1,user=rxm124330,queue=default,status=SUCCEEDED,mapSlotSeconds=778,
+reduceSlotsSeconds=999,clusterMapCapacity=6,clusterReduceCapacity=6,jobName=crimer
+
+
+
+/user/cloud/rxm124330/Crime/fullblock32/ - reducers 10 blocksize 32MB FULL - job_201402160159_0031
+Job complete: job_201402160159_0031
+14/02/17 01:05:33 INFO mapred.JobClient: Counters: 29
+14/02/17 01:05:33 INFO mapred.JobClient:   Job Counters
+14/02/17 01:05:33 INFO mapred.JobClient:     Launched reduce tasks=14
+14/02/17 01:05:33 INFO mapred.JobClient:     SLOTS_MILLIS_MAPS=775152
+14/02/17 01:05:33 INFO mapred.JobClient:     Total time spent by all reduces waiting after reserving slots (ms)=0
+14/02/17 01:05:33 INFO mapred.JobClient:     Total time spent by all maps waiting after reserving slots (ms)=0
+14/02/17 01:05:33 INFO mapred.JobClient:     Launched map tasks=1345
+14/02/17 01:05:33 INFO mapred.JobClient:     Data-local map tasks=1345
+14/02/17 01:05:33 INFO mapred.JobClient:     SLOTS_MILLIS_REDUCES=997140
+14/02/17 01:05:33 INFO mapred.JobClient:   File Output Format Counters
+14/02/17 01:05:33 INFO mapred.JobClient:     Bytes Written=18827875
+14/02/17 01:05:33 INFO mapred.JobClient:   FileSystemCounters
+14/02/17 01:05:33 INFO mapred.JobClient:     FILE_BYTES_READ=39200996
+14/02/17 01:05:33 INFO mapred.JobClient:     HDFS_BYTES_READ=2184105737
+14/02/17 01:05:33 INFO mapred.JobClient:     FILE_BYTES_WRITTEN=234475349
+14/02/17 01:05:33 INFO mapred.JobClient:     HDFS_BYTES_WRITTEN=18827875
+14/02/17 01:05:33 INFO mapred.JobClient:   File Input Format Counters
+14/02/17 01:05:33 INFO mapred.JobClient:     Bytes Read=2183910056
+14/02/17 01:05:33 INFO mapred.JobClient:   Map-Reduce Framework
+14/02/17 01:05:33 INFO mapred.JobClient:     Map output materialized bytes=162501352
+14/02/17 01:05:33 INFO mapred.JobClient:     Map input records=15669890
+14/02/17 01:05:33 INFO mapred.JobClient:     Reduce shuffle bytes=162501352
+14/02/17 01:05:33 INFO mapred.JobClient:     Spilled Records=4132768
+14/02/17 01:05:33 INFO mapred.JobClient:     Map output bytes=759656667
+14/02/17 01:05:33 INFO mapred.JobClient:     Total committed heap usage (bytes)=263862091776
+14/02/17 01:05:33 INFO mapred.JobClient:     CPU time spent (ms)=517300
+14/02/17 01:05:33 INFO mapred.JobClient:     Combine input records=18582643
+14/02/17 01:05:33 INFO mapred.JobClient:     SPLIT_RAW_BYTES=195681
+14/02/17 01:05:33 INFO mapred.JobClient:     Reduce input records=801021
+14/02/17 01:05:33 INFO mapred.JobClient:     Reduce input groups=417196
+14/02/17 01:05:33 INFO mapred.JobClient:     Combine output records=3713774
+14/02/17 01:05:33 INFO mapred.JobClient:     Physical memory (bytes) snapshot=315664543744
+14/02/17 01:05:33 INFO mapred.JobClient:     Reduce output records=417196
+14/02/17 01:05:33 INFO mapred.JobClient:     Virtual memory (bytes) snapshot=810711322624
+14/02/17 01:05:33 INFO mapred.JobClient:     Map output records=15669890
+Job job_201402160159_0031 has completed successfully.
+2014-02-17 01:05:33,311 INFO org.apache.hadoop.mapred.JobInProgress$JobSummary: jobId=job_201402160159_0031,
+submitTime=1392620549032,launchTime=1392620549238,firstMapTaskLaunchTime=1392620550620,firstReduceTaskLaunchTime=1392620561796,
+firstJobSetupTaskLaunchTime=1392620549412,firstJobCleanupTaskLaunchTime=1392620732102,finishTime=1392620733311,numMaps=1341
+,numSlotsPerMap=1,numReduces=10,numSlotsPerReduce=1,user=rxm124330,queue=default,status=SUCCEEDED,mapSlotSeconds=775,
+reduceSlotsSeconds=997,clusterMapCapacity=6,clusterReduceCapacity=6,jobName=crimer
+
+
+/user/cloud/rxm124330/Crime/singleblock1/ - reducers 10 blocksize 1MB SINGLE - job_201402160159_0038
+Job complete: job_201402160159_0038
+14/02/17 01:29:50 INFO mapred.JobClient: Counters: 29
+14/02/17 01:29:50 INFO mapred.JobClient:   Job Counters
+14/02/17 01:29:50 INFO mapred.JobClient:     Launched reduce tasks=14
+14/02/17 01:29:50 INFO mapred.JobClient:     SLOTS_MILLIS_MAPS=1152601
+14/02/17 01:29:50 INFO mapred.JobClient:     Total time spent by all reduces waiting after reserving slots (ms)=0
+14/02/17 01:29:50 INFO mapred.JobClient:     Total time spent by all maps waiting after reserving slots (ms)=0
+14/02/17 01:29:50 INFO mapred.JobClient:     Launched map tasks=2087
+14/02/17 01:29:50 INFO mapred.JobClient:     Data-local map tasks=2087
+14/02/17 01:29:50 INFO mapred.JobClient:     SLOTS_MILLIS_REDUCES=1480905
+14/02/17 01:29:50 INFO mapred.JobClient:   File Output Format Counters
+14/02/17 01:29:50 INFO mapred.JobClient:     Bytes Written=18827823
+14/02/17 01:29:50 INFO mapred.JobClient:   FileSystemCounters
+14/02/17 01:29:50 INFO mapred.JobClient:     FILE_BYTES_READ=37675038
+14/02/17 01:29:50 INFO mapred.JobClient:     HDFS_BYTES_READ=2192591196
+14/02/17 01:29:50 INFO mapred.JobClient:     FILE_BYTES_WRITTEN=274621122
+14/02/17 01:29:50 INFO mapred.JobClient:     HDFS_BYTES_WRITTEN=18827823
+14/02/17 01:29:50 INFO mapred.JobClient:   File Input Format Counters
+14/02/17 01:29:50 INFO mapred.JobClient:     Bytes Read=2192322489
+14/02/17 01:29:50 INFO mapred.JobClient:   Map-Reduce Framework
+14/02/17 01:29:50 INFO mapred.JobClient:     Map output materialized bytes=186183979
+14/02/17 01:29:50 INFO mapred.JobClient:     Map input records=15668547
+14/02/17 01:29:50 INFO mapred.JobClient:     Reduce shuffle bytes=186183979
+14/02/17 01:29:50 INFO mapred.JobClient:     Spilled Records=4569682
+14/02/17 01:29:50 INFO mapred.JobClient:     Map output bytes=759588170
+14/02/17 01:29:50 INFO mapred.JobClient:     Total committed heap usage (bytes)=405906391040
+14/02/17 01:29:50 INFO mapred.JobClient:     CPU time spent (ms)=698210
+14/02/17 01:29:50 INFO mapred.JobClient:     Combine input records=19309446
+14/02/17 01:29:50 INFO mapred.JobClient:     SPLIT_RAW_BYTES=268707
+14/02/17 01:29:50 INFO mapred.JobClient:     Reduce input records=773232
+14/02/17 01:29:50 INFO mapred.JobClient:     Reduce input groups=417195
+14/02/17 01:29:50 INFO mapred.JobClient:     Combine output records=4414131
+14/02/17 01:29:50 INFO mapred.JobClient:     Physical memory (bytes) snapshot=488735756288
+14/02/17 01:29:50 INFO mapred.JobClient:     Reduce output records=417195
+14/02/17 01:29:50 INFO mapred.JobClient:     Virtual memory (bytes) snapshot=1251256197120
+14/02/17 01:29:50 INFO mapred.JobClient:     Map output records=15668547
+
+2014-02-17 01:29:49,822 INFO org.apache.hadoop.mapred.JobInProgress: Job job_201402160159_0038 has completed successfully.
+2014-02-17 01:29:49,822 INFO org.apache.hadoop.mapred.JobInProgress$JobSummary: jobId=job_201402160159_0038,
+submitTime=1392621919935,
+launchTime=1392621920154,
+firstMapTaskLaunchTime=1392621921428,
+firstReduceTaskLaunchTime=1392621935497,
+firstJobSetupTaskLaunchTime=1392621920220,
+firstJobCleanupTaskLaunchTime=1392622188610,
+finishTime=1392622189822,
+numMaps=2083,
+numSlotsPerMap=1,
+numReduces=10,
+numSlotsPerReduce=1,
+user=rxm124330,queue=default,status=SUCCEEDED,
+mapSlotSeconds=1152,reduceSlotsSeconds=1480,
+clusterMapCapacity=6,clusterReduceCapacity=6,jobName=crimer
+
+/user/cloud/rxm124330/Crime/fullblock1/ - reducers 10 blocksize 1MB FULL - job_201402160159_0041
+Job complete: job_201402160159_0041
+14/02/17 01:43:44 INFO mapred.JobClient: Counters: 29
+14/02/17 01:43:44 INFO mapred.JobClient:   Job Counters
+14/02/17 01:43:44 INFO mapred.JobClient:     Launched reduce tasks=14
+14/02/17 01:43:44 INFO mapred.JobClient:     SLOTS_MILLIS_MAPS=1400097
+14/02/17 01:43:44 INFO mapred.JobClient:     Total time spent by all reduces waiting after reserving slots (ms)=0
+14/02/17 01:43:44 INFO mapred.JobClient:     Total time spent by all maps waiting after reserving slots (ms)=0
+14/02/17 01:43:44 INFO mapred.JobClient:     Launched map tasks=2577
+14/02/17 01:43:44 INFO mapred.JobClient:     Data-local map tasks=2577
+14/02/17 01:43:44 INFO mapred.JobClient:     SLOTS_MILLIS_REDUCES=1835274
+14/02/17 01:43:44 INFO mapred.JobClient:   File Output Format Counters
+14/02/17 01:43:44 INFO mapred.JobClient:     Bytes Written=18827875
+14/02/17 01:43:44 INFO mapred.JobClient:   FileSystemCounters
+14/02/17 01:43:44 INFO mapred.JobClient:     FILE_BYTES_READ=51756063
+14/02/17 01:43:44 INFO mapred.JobClient:     HDFS_BYTES_READ=2189337908
+14/02/17 01:43:44 INFO mapred.JobClient:     FILE_BYTES_WRITTEN=292814841
+14/02/17 01:43:44 INFO mapred.JobClient:     HDFS_BYTES_WRITTEN=18827875
+14/02/17 01:43:44 INFO mapred.JobClient:   File Input Format Counters
+14/02/17 01:43:44 INFO mapred.JobClient:     Bytes Read=2188960424
+14/02/17 01:43:44 INFO mapred.JobClient:   Map-Reduce Framework
+14/02/17 01:43:44 INFO mapred.JobClient:     Map output materialized bytes=178377132
+14/02/17 01:43:44 INFO mapred.JobClient:     Map input records=15669890
+14/02/17 01:43:44 INFO mapred.JobClient:     Reduce shuffle bytes=178377132
+14/02/17 01:43:44 INFO mapred.JobClient:     Spilled Records=4727347
+14/02/17 01:43:44 INFO mapred.JobClient:     Map output bytes=759656667
+14/02/17 01:43:44 INFO mapred.JobClient:     Total committed heap usage (bytes)=498764611584
+14/02/17 01:43:44 INFO mapred.JobClient:     CPU time spent (ms)=811730
+14/02/17 01:43:44 INFO mapred.JobClient:     Combine input records=18829539
+14/02/17 01:43:44 INFO mapred.JobClient:     SPLIT_RAW_BYTES=377484
+14/02/17 01:43:44 INFO mapred.JobClient:     Reduce input records=1075173
+14/02/17 01:43:44 INFO mapred.JobClient:     Reduce input groups=417196
+14/02/17 01:43:44 INFO mapred.JobClient:     Combine output records=4234822
+14/02/17 01:43:44 INFO mapred.JobClient:     Physical memory (bytes) snapshot=601137352704
+14/02/17 01:43:44 INFO mapred.JobClient:     Reduce output records=417196
+14/02/17 01:43:44 INFO mapred.JobClient:     Virtual memory (bytes) snapshot=1543635918848
+14/02/17 01:43:44 INFO mapred.JobClient:     Map output records=15669890
+
+Job job_201402160159_0041 has completed successfully.
+2014-02-17 01:43:44,473 INFO org.apache.hadoop.mapred.JobInProgress$JobSummary: 
+jobId=job_201402160159_0041,submitTime=1392622694161,launchTime=1392622694399,
+firstMapTaskLaunchTime=1392622695615,firstReduceTaskLaunchTime=1392622712179,
+firstJobSetupTaskLaunchTime=1392622694406,firstJobCleanupTaskLaunchTime=1392623023257,
+inishTime=1392623024472,numMaps=2574,numSlotsPerMap=1,numReduces=10,numSlotsPerReduce=1,u
+ser=rxm124330,queue=default,status=SUCCEEDED,mapSlotSeconds=1400,reduceSlotsSeconds=1814,
+clusterMapCapacity=6,clusterReduceCapacity=6,jobName=crimer
+

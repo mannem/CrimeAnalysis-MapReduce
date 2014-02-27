@@ -1,0 +1,132 @@
+Job tracker log for a MAPRED JOB job_201402160159_0015 - Single File :
+
+This Log contains the  distribution of Map and reduce tasks in the slaves 1,2,3 . 
+
+2014-02-16 22:52:19,747 INFO org.apache.hadoop.mapred.JobInProgress: job_201402160159_0015: nMaps=17 nReduces=10 max=-1
+2014-02-16 22:52:19,793 INFO org.apache.hadoop.mapred.JobTracker: Job job_201402160159_0015 added successfully for user 'rxm124330' to queue 'default'
+2014-02-16 22:52:19,793 INFO org.apache.hadoop.mapred.AuditLogger: USER=rxm124330       IP=192.168.1.107        OPERATION=SUBMIT_JOB    TARGET=job_201402160159_0015    RESULT=SUCCESS
+2014-02-16 22:52:19,793 INFO org.apache.hadoop.mapred.JobTracker: Initializing job_201402160159_0015
+2014-02-16 22:52:19,793 INFO org.apache.hadoop.mapred.JobInProgress: Initializing job_201402160159_0015
+2014-02-16 22:52:19,867 INFO org.apache.hadoop.mapred.JobInProgress: jobToken generated and stored with users keys in /home/cloud2014/cloud/tmp/mapred/system/job_201402160159_0015/jobToken
+2014-02-16 22:52:19,871 INFO org.apache.hadoop.mapred.JobInProgress: Input size for job job_201402160159_0015 = 2183794617. Number of splits = 17
+2014-02-16 22:52:19,871 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000000 has split on node:/default-rack/slave2
+2014-02-16 22:52:19,871 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000000 has split on node:/default-rack/slave3
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000000 has split on node:/default-rack/slave1
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000001 has split on node:/default-rack/slave2
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000001 has split on node:/default-rack/slave3
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000001 has split on node:/default-rack/slave1
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000002 has split on node:/default-rack/slave1
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000002 has split on node:/default-rack/slave2
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000002 has split on node:/default-rack/slave3
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000003 has split on node:/default-rack/slave1
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000003 has split on node:/default-rack/slave2
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000003 has split on node:/default-rack/slave3
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000004 has split on node:/default-rack/slave2
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000004 has split on node:/default-rack/slave3
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000004 has split on node:/default-rack/slave1
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000005 has split on node:/default-rack/slave2
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000005 has split on node:/default-rack/slave3
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000005 has split on node:/default-rack/slave1
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000006 has split on node:/default-rack/slave3
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000006 has split on node:/default-rack/slave2
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000006 has split on node:/default-rack/slave1
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000007 has split on node:/default-rack/slave2
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000007 has split on node:/default-rack/slave3
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000007 has split on node:/default-rack/slave1
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000008 has split on node:/default-rack/slave1
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000008 has split on node:/default-rack/slave2
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000008 has split on node:/default-rack/slave3
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000009 has split on node:/default-rack/slave3
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000009 has split on node:/default-rack/slave2
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000009 has split on node:/default-rack/slave1
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000010 has split on node:/default-rack/slave2
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000010 has split on node:/default-rack/slave3
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000010 has split on node:/default-rack/slave1
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000011 has split on node:/default-rack/slave1
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000011 has split on node:/default-rack/slave2
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000011 has split on node:/default-rack/slave3
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000012 has split on node:/default-rack/slave3
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000012 has split on node:/default-rack/slave2
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000012 has split on node:/default-rack/slave1
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000013 has split on node:/default-rack/slave2
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000013 has split on node:/default-rack/slave3
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000013 has split on node:/default-rack/slave1
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000014 has split on node:/default-rack/slave2
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000014 has split on node:/default-rack/slave3
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000014 has split on node:/default-rack/slave1
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000015 has split on node:/default-rack/slave3
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000015 has split on node:/default-rack/slave2
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000015 has split on node:/default-rack/slave1
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000016 has split on node:/default-rack/slave2
+2014-02-16 22:52:19,872 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000016 has split on node:/default-rack/slave3
+2014-02-16 22:52:19,873 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201402160159_0015_m_000016 has split on node:/default-rack/slave1
+2014-02-16 22:52:19,873 INFO org.apache.hadoop.mapred.JobInProgress: job_201402160159_0015 LOCALITY_WAIT_FACTOR=1.0
+2014-02-16 22:52:19,873 INFO org.apache.hadoop.mapred.JobInProgress: Job job_201402160159_0015 initialized successfully with 17 map tasks and 10 reduce tasks.
+2014-02-16 22:52:19,923 INFO org.apache.hadoop.mapred.JobTracker: Adding task (JOB_SETUP) 'attempt_201402160159_0015_m_000018_0' to tip task_201402160159_0015_m_000018, for tracker 'tracker_slave3:localhost/127.0.0.1:58963'
+2014-02-16 22:52:21,131 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201402160159_0015_m_000018_0' has completed task_201402160159_0015_m_000018 successfully.
+2014-02-16 22:52:21,132 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201402160159_0015_m_000000_0' to tip task_201402160159_0015_m_000000, for tracker 'tracker_slave3:localhost/127.0.0.1:58963'
+2014-02-16 22:52:21,132 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201402160159_0015_m_000000
+2014-02-16 22:52:21,132 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201402160159_0015_m_000001_0' to tip task_201402160159_0015_m_000001, for tracker 'tracker_slave3:localhost/127.0.0.1:58963'
+2014-02-16 22:52:21,132 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201402160159_0015_m_000001
+2014-02-16 22:52:21,209 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201402160159_0015_m_000002_0' to tip task_201402160159_0015_m_000002, for tracker 'tracker_slave2:localhost/127.0.0.1:34037'
+2014-02-16 22:52:21,209 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201402160159_0015_m_000002
+2014-02-16 22:52:21,209 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201402160159_0015_m_000003_0' to tip task_201402160159_0015_m_000003, for tracker 'tracker_slave2:localhost/127.0.0.1:34037'
+2014-02-16 22:52:21,209 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201402160159_0015_m_000003
+2014-02-16 22:52:21,328 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201402160159_0015_m_000004_0' to tip task_201402160159_0015_m_000004, for tracker 'tracker_slave1:localhost/127.0.0.1:43006'
+2014-02-16 22:52:21,329 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201402160159_0015_m_000004
+2014-02-16 22:52:21,329 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201402160159_0015_m_000005_0' to tip task_201402160159_0015_m_000005, for tracker 'tracker_slave1:localhost/127.0.0.1:43006'
+2014-02-16 22:52:21,329 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201402160159_0015_m_000005
+2014-02-16 22:52:27,465 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201402160159_0015_m_000001_0' has completed task_201402160159_0015_m_000001 successfully.
+2014-02-16 22:52:27,465 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201402160159_0015_m_000006_0' to tip task_201402160159_0015_m_000006, for tracker 'tracker_slave3:localhost/127.0.0.1:58963'
+2014-02-16 22:52:27,465 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201402160159_0015_m_000006
+2014-02-16 22:52:27,466 INFO org.apache.hadoop.mapred.JobTracker: Adding task (REDUCE) 'attempt_201402160159_0015_r_000000_0' to tip task_201402160159_0015_r_000000, for tracker 'tracker_slave3:localhost/127.0.0.1:58963'
+2014-02-16 22:52:27,540 INFO org.apache.hadoop.mapred.JobTracker: Adding task (REDUCE) 'attempt_201402160159_0015_r_000001_0' to tip task_201402160159_0015_r_000001, for tracker 'tracker_slave2:localhost/127.0.0.1:34037'
+2014-02-16 22:52:27,659 INFO org.apache.hadoop.mapred.JobTracker: Adding task (REDUCE) 'attempt_201402160159_0015_r_000002_0' to tip task_201402160159_0015_r_000002, for tracker 'tracker_slave1:localhost/127.0.0.1:43006'
+2014-02-16 22:52:27,767 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201402160159_0015_m_000000_0' has completed task_201402160159_0015_m_000000 successfully.
+2014-02-16 22:52:27,768 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201402160159_0015_m_000007_0' to tip task_201402160159_0015_m_000007, for tracker 'tracker_slave3:localhost/127.0.0.1:58963'
+2014-02-16 22:52:27,843 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201402160159_0015_m_000008_0' to tip task_201402160159_0015_m_000008, for tracker 'tracker_slave2:localhost/127.0.0.1:34037'
+2014-02-16 22:52:27,843 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201402160159_0015_m_000008
+2014-02-16 22:52:27,843 INFO org.apache.hadoop.mapred.JobTracker: Adding task (REDUCE) 'attempt_201402160159_0015_r_000004_0' to tip task_201402160159_0015_r_000004, for tracker 'tracker_slave2:localhost/127.0.0.1:34037'
+2014-02-16 22:52:27,962 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201402160159_0015_m_000005_0' has completed task_201402160159_0015_m_000005 successfully.
+2014-02-16 22:52:27,962 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201402160159_0015_m_000009_0' to tip task_201402160159_0015_m_000009, for tracker 'tracker_slave1:localhost/127.0.0.1:43006'
+2014-02-16 22:52:27,962 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201402160159_0015_m_000009
+2014-02-16 22:52:27,963 INFO org.apache.hadoop.mapred.JobTracker: Adding task (REDUCE) 'attempt_201402160159_0015_r_000005_0' to tip task_201402160159_0015_r_000005, for tracker 'tracker_slave1:localhost/127.0.0.1:43006'
+2014-02-16 22:52:28,145 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201402160159_0015_m_000002_0' has completed task_201402160159_0015_m_000002 successfully.
+2014-02-16 22:52:28,145 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201402160159_0015_m_000010_0' to tip task_201402160159_0015_m_000010, for tracker 'tracker_slave2:localhost/127.0.0.1:34037'
+2014-02-16 22:52:28,145 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201402160159_0015_m_000010
+2014-02-16 22:52:28,264 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201402160159_0015_m_000004_0' has completed task_201402160159_0015_m_000004 successfully.
+2014-02-16 22:52:28,264 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201402160159_0015_m_000011_0' to tip task_201402160159_0015_m_000011, for tracker 'tracker_slave1:localhost/127.0.0.1:43006'
+2014-02-16 22:52:28,264 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201402160159_0015_m_000011
+2014-02-16 22:52:31,380 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201402160159_0015_m_000006_0' has completed task_201402160159_0015_m_000006 successfully.
+2014-02-16 22:52:31,381 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201402160159_0015_m_000012_0' to tip task_201402160159_0015_m_000012, for tracker 'tracker_slave3:localhost/127.0.0.1:58963'
+2014-02-16 22:52:31,381 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201402160159_0015_m_000012
+2014-02-16 22:52:31,756 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201402160159_0015_m_000008_0' has completed task_201402160159_0015_m_000008 successfully.
+2014-02-16 22:52:31,757 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201402160159_0015_m_000010_0' has completed task_201402160159_0015_m_000010 successfully.
+2014-02-16 22:52:31,757 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201402160159_0015_m_000013_0' to tip task_201402160159_0015_m_000013, for tracker 'tracker_slave2:localhost/127.0.0.1:34037'
+2014-02-16 22:52:31,757 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201402160159_0015_m_000013
+2014-02-16 22:52:31,757 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201402160159_0015_m_000014_0' to tip task_201402160159_0015_m_000014, for tracker 'tracker_slave2:localhost/127.0.0.1:34037'
+2014-02-16 22:52:31,757 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201402160159_0015_m_000014
+2014-02-16 22:52:33,385 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201402160159_0015_m_000016_0' has completed task_201402160159_0015_m_000016 successfully.
+2014-02-16 22:52:35,371 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201402160159_0015_m_000014_0' has completed task_201402160159_0015_m_000014 successfully.
+2014-02-16 22:52:35,597 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201402160159_0015_m_000012_0' has completed task_201402160159_0015_m_000012 successfully.
+2014-02-16 22:52:35,597 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201402160159_0015_m_000015_0' has completed task_201402160159_0015_m_000015 successfully.
+2014-02-16 22:52:35,673 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201402160159_0015_m_000013_0' has completed task_201402160159_0015_m_000013 successfully.
+2014-02-16 22:52:40,500 INFO org.apache.hadoop.mapred.JobTracker: Adding task (REDUCE) 'attempt_201402160159_0015_r_000006_0' to tip task_201402160159_0015_r_000006, for tracker 'tracker_slave2:localhost/127.0.0.1:34037'
+2014-02-16 22:52:40,727 INFO org.apache.hadoop.mapred.JobTracker: Adding task (REDUCE) 'attempt_201402160159_0015_r_000007_0' to tip task_201402160159_0015_r_000007, for tracker 'tracker_slave3:localhost/127.0.0.1:58963'
+2014-02-16 22:52:40,927 INFO org.apache.hadoop.mapred.JobTracker: Adding task (REDUCE) 'attempt_201402160159_0015_r_000008_0' to tip task_201402160159_0015_r_000008, for tracker 'tracker_slave1:localhost/127.0.0.1:43006'
+2014-02-16 22:52:41,029 INFO org.apache.hadoop.mapred.JobTracker: Adding task (REDUCE) 'attempt_201402160159_0015_r_000009_0' to tip task_201402160159_0015_r_000009, for tracker 'tracker_slave3:localhost/127.0.0.1:58963'
+2014-02-16 22:52:41,634 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201402160159_0015_r_000000_0' has completed task_201402160159_0015_r_000000 successfully.
+2014-02-16 22:52:41,709 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201402160159_0015_r_000001_0' has completed task_201402160159_0015_r_000001 successfully.
+2014-02-16 22:52:41,838 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201402160159_0015_r_000002_0' has completed task_201402160159_0015_r_000002 successfully.
+2014-02-16 22:52:41,936 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201402160159_0015_r_000003_0' has completed task_201402160159_0015_r_000003 successfully.
+2014-02-16 22:52:42,012 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201402160159_0015_r_000004_0' has completed task_201402160159_0015_r_000004 successfully.
+2014-02-16 22:52:42,140 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201402160159_0015_r_000005_0' has completed task_201402160159_0015_r_000005 successfully.
+2014-02-16 22:52:49,178 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201402160159_0015_r_000007_0' has completed task_201402160159_0015_r_000007 successfully.
+2014-02-16 22:52:49,261 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201402160159_0015_r_000006_0' has completed task_201402160159_0015_r_000006 successfully.
+2014-02-16 22:52:49,381 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201402160159_0015_r_000008_0' has completed task_201402160159_0015_r_000008 successfully.
+2014-02-16 22:52:49,480 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201402160159_0015_r_000009_0' has completed task_201402160159_0015_r_000009 successfully.
+2014-02-16 22:52:49,481 INFO org.apache.hadoop.mapred.JobTracker: Adding task (JOB_CLEANUP) 'attempt_201402160159_0015_m_000017_0' to tip task_201402160159_0015_m_000017, for tracker 'tracker_slave3:localhost/127.0.0.1:58963'
+2014-02-16 22:52:49,784 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201402160159_0015_m_000017_0' has completed task_201402160159_0015_m_000017 successfully.
+2014-02-16 22:52:49,784 INFO org.apache.hadoop.mapred.JobInProgress: Job job_201402160159_0015 has completed successfully.
+2014-02-16 22:52:49,784 INFO org.apache.hadoop.mapred.JobInProgress$JobSummary: jobId=job_201402160159_0015,submitTime=1392612739735,launchTime=1392612739873,firstMapTaskLaunchTime=1392612741132,firstReduceTaskLaunchTime=1392612747465,firstJobSetupTaskLaunchTime=1392612739923,firstJobCleanupTaskLaunchTime=1392612769481,finishTime=1392612769784,numMaps=17,numSlotsPerMap=1,numReduces=10,numSlotsPerReduce=1,user=rxm124330,queue=default,status=SUCCEEDED,mapSlotSeconds=78,reduceSlotsSeconds=114,clusterMapCapacity=6,clusterReduceCapacity=6,jobName=word count
+

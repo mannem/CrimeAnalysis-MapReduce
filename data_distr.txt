@@ -1,0 +1,36 @@
+How data is Distributed :
+SINGLE FILE:
+rxm124330@master:/home/cloud/hadoop-1.1.0/bin$ hadoop fsck /user/cloud/full_input/single
+FSCK started by rxm124330 from /192.168.1.107 for path /user/cloud/full_input/single at Tue Feb 25 22:22:01 CST 2014
+.Status: HEALTHY
+ Total size:    2183794617 B
+ Total dirs:    1
+ Total files:   1
+ Total blocks (validated):      17 (avg. block size 128458506 B)
+ Minimally replicated blocks:   17 (100.0 %)
+ Over-replicated blocks:        0 (0.0 %)
+ Under-replicated blocks:       0 (0.0 %)
+ Mis-replicated blocks:         0 (0.0 %)
+ Default replication factor:    3
+ Average block replication:     3.0
+ Corrupt blocks:                0
+ Missing replicas:              0 (0.0 %)
+ Number of data-nodes:          3
+ Number of racks:               1
+
+
+MULTIPLE FILES : 
+Total size:    2183910056 B
+ Total dirs:    1
+ Total files:   1341
+ Total blocks (validated):      1341 (avg. block size 1628568 B)
+ Minimally replicated blocks:   1341 (100.0 %)
+ Over-replicated blocks:        0 (0.0 %)
+ Under-replicated blocks:       0 (0.0 %)
+ Mis-replicated blocks:         0 (0.0 %)
+ Default replication factor:    3
+ Average block replication:     3.0
+ Corrupt blocks:                0
+ Missing replicas:              0 (0.0 %)
+ Number of data-nodes:          3
+ Number of racks:               1
